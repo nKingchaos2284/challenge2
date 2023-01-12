@@ -12,11 +12,11 @@
   padding: 20px;
 }
 
-a:active {
+.nav a:active {
   color: olivedrab;
 }
 
-a:visited {
+.nav a:visited {
   color: rgb(110, 5, 209);
 }
 
@@ -94,27 +94,34 @@ h2{
  .card2 {
   width: 190px;
   height: 254px;
-  background-color: #1a1a1a;
-  border-radius:;
-  transition: all .2s;
+  background-color: black;
+  border-radius:15px;
+  
  }
- 
+
  .card2:hover {
   transform: scale(0.98);
   border-radius: 20px;
  }
- 
- .card:hover {
+ .chaos {
+  width: 190px;
+  height: 254px;
+  border-radius: 15px;transition: all .2s;
+ }
+
+
+ .card:hover:hover {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
  }
 
-.contact {
-  display: flexbox;
-
+.contact_form {
+display: flexbox;
+text-align: center;
 }
 
 .footer {
-  position: fixed;
+  
+  display: flexbox;
   left: 0;
   bottom: 0;
   width: 100%;
